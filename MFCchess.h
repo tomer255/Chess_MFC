@@ -11,14 +11,14 @@
 #include "resource.h"		// main symbols
 
 
-// CMFCchassApp:
-// See MFCchass.cpp for the implementation of this class
+// CMFCchessApp:
+// See MFCchess.cpp for the implementation of this class
 //
 
-class CMFCchassApp : public CWinApp
+class CMFCchessApp : public CWinApp
 {
 public:
-	CMFCchassApp();
+	CMFCchessApp();
 
 // Overrides
 public:
@@ -29,4 +29,4 @@ public:
 	DECLARE_MESSAGE_MAP()
 };
 
-extern CMFCchassApp theApp;
+extern CMFCchessApp theApp;

@@ -4,24 +4,24 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "MFCchass.h"
-#include "MFCchassDlg.h"
+#include "MFCchess.h"
+#include "MFCchessDlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
 
-// CMFCchassApp
+// CMFCchessApp
 
-BEGIN_MESSAGE_MAP(CMFCchassApp, CWinApp)
+BEGIN_MESSAGE_MAP(CMFCchessApp, CWinApp)
 	ON_COMMAND(ID_HELP, &CWinApp::OnHelp)
 END_MESSAGE_MAP()
 
 
-// CMFCchassApp construction
+// CMFCchessApp construction
 
-CMFCchassApp::CMFCchassApp()
+CMFCchessApp::CMFCchessApp()
 {
 	// support Restart Manager
 	m_dwRestartManagerSupportFlags = AFX_RESTART_MANAGER_SUPPORT_RESTART;
@@ -33,12 +33,12 @@ CMFCchassApp::CMFCchassApp()
 
 // The one and only CMFCchassApp object
 
-CMFCchassApp theApp;
+CMFCchessApp theApp;
 
 
 // CMFCchassApp initialization
 
-BOOL CMFCchassApp::InitInstance()
+BOOL CMFCchessApp::InitInstance()
 {
 	// InitCommonControlsEx() is required on Windows XP if an application
 	// manifest specifies use of ComCtl32.dll version 6 or later to enable
@@ -71,7 +71,7 @@ BOOL CMFCchassApp::InitInstance()
 	// such as the name of your company or organization
 	SetRegistryKey(_T("Local AppWizard-Generated Applications"));
 
-	CMFCchassDlg dlg;
+	CMFCchessDlg dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)

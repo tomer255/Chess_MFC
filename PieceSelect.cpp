@@ -2,7 +2,7 @@
 //
 
 #include "pch.h"
-#include "MFCchass.h"
+#include "MFCchess.h"
 #include "PieceSelect.h"
 #include "afxdialogex.h"
 

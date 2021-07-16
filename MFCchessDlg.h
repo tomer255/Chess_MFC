@@ -6,11 +6,11 @@
 
 
 // CMFCchassDlg dialog
-class CMFCchassDlg : public CDialogEx
+class CMFCchessDlg : public CDialogEx
 {
 // Construction
 public:
-	CMFCchassDlg(CWnd* pParent = nullptr);	// standard constructor
+	CMFCchessDlg(CWnd* pParent = nullptr);	// standard constructor
 
 // Dialog Data
 #ifdef AFX_DESIGN_TIME

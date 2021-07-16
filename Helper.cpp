@@ -3,17 +3,17 @@
 
 
 
-COORD ConvLoc(COORD loc,double bloks) {
+COORD ConvLoc(COORD loc,double blocks) {
 	loc.X -= 15;
 	loc.Y -= 15;
-	loc.X /= bloks;
-	loc.Y /= bloks;
+	loc.X /= blocks;
+	loc.Y /= blocks;
 	return loc;
 }
 
-COORD ReConvLoc(COORD loc, double bloks) {
-	loc.X *= bloks;
-	loc.Y *= bloks;
+COORD ReConvLoc(COORD loc, double blocks) {
+	loc.X *= blocks;
+	loc.Y *= blocks;
 	loc.X += 15;
 	loc.Y += 15;
 	return loc;
@@ -31,7 +31,7 @@ bool validLoc(COORD t) {
 	return true;
 }
 
-void GetDesktopResolution( double& bloks, double &bloks_size, double &piece_size, double &piece_sener)
+void GetDesktopResolution( double& blocks, double &blocks_size, double &piece_size, double &piece_center)
 {
 	RECT desktop;
 	const HWND hDesktop = GetDesktopWindow();
@@ -39,8 +39,8 @@ void GetDesktopResolution( double& bloks, double &bloks_size, double &piece_size
 	int horizontal = desktop.right;
 	int vertical = desktop.bottom;
 	int temp = horizontal + vertical;
-	bloks = temp / 40;
-	bloks_size = bloks / 10;
-	piece_size = bloks_size-1;
-	piece_sener = temp / 320;
+	blocks = 55;
+	blocks_size = 10;
+	piece_size = 7;
+	piece_center = 5;
 }

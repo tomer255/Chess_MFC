@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MFCchass.h">
+    <ClInclude Include="MFCchess.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MFCchassDlg.h">
+    <ClInclude Include="MFCchessDlg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -65,10 +65,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MFCchass.cpp">
+    <ClCompile Include="MFCchess.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MFCchassDlg.cpp">
+    <ClCompile Include="MFCchessDlg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -106,17 +106,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="MFCchass.rc">
+    <ResourceCompile Include="MFCchess.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\MFCchass.rc2">
+    <None Include="res\MFCchess.rc2">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\MFCchass.ico">
+    <Image Include="res\MFCchess.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
