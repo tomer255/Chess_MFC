@@ -11,7 +11,7 @@ The object of the game is to checkmate (threaten with inescapable capture) the o
 
 
 ## Images 
-![1](https://user-images.githubusercontent.com/65775948/126082882-f432844c-0306-489d-8772-376360e53381.png)    
+![1](https://user-images.githubusercontent.com/65775948/126082882-f432844c-0306-489d-8772-376360e53381.png)  
 ![2](https://user-images.githubusercontent.com/65775948/126082900-729492b8-71d1-4dbc-b7e9-9d5c9a3b4fe0.png)
 
 
